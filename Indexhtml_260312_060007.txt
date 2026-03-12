@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Prime Snacks Cafe</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#fafafa;
+}
+
+header{
+background:#ff4b2b;
+color:white;
+padding:25px;
+text-align:center;
+}
+
+nav{
+background:#222;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.container{
+padding:40px;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+}
+
+.card{
+background:white;
+width:230px;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,0.2);
+text-align:center;
+padding:15px;
+}
+
+.card img{
+width:200px;
+height:200px;
+object-fit:cover;
+border-radius:10px;
+}
+
+.price{
+color:#ff4b2b;
+font-size:18px;
+font-weight:bold;
+}
+
+button{
+margin-top:10px;
+padding:10px 15px;
+border:none;
+background:#25D366;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#128C7E;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Prime Snacks Cafe</h1>
+<p>Chips • Cold Drinks • Fast Snacks</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Menu</a>
+<a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Lay%27s_classic_chips.jpg">
+<h3>Lays Chips</h3>
+<p class="price">₹20</p>
+<a href="https://wa.me/919000786741">
+<button>Order on WhatsApp</button>
+</a>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Kurkure-Masala-Munch.jpg">
+<h3>Kurkure</h3>
+<p class="price">₹20</p>
+<a href="https://wa.me/919000786741">
+<button>Order on WhatsApp</button>
+</a>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Pepsi_can.jpg">
+<h3>Pepsi</h3>
+<p class="price">₹30</p>
+<a href="https://wa.me/919000786741">
+<button>Order on WhatsApp</button>
+</a>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Sprite_can.jpg">
+<h3>Sprite</h3>
+<p class="price">₹30</p>
+<a href="https://wa.me/919000786741">
+<button>Order on WhatsApp</button>
+</a>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Coca-Cola_can.jpg">
+<h3>Coca Cola</h3>
+<p class="price">₹35</p>
+<a href="https://wa.me/919000786741">
+<button>Order on WhatsApp</button>
+</a>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Prime Snacks Cafe | Fresh Snacks Everyday</p>
+</footer>
+
+</body>
+</html>
